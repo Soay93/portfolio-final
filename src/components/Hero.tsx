@@ -21,13 +21,13 @@ const Hero = () => {
             <div className="w-48 h-48 mx-auto rounded-full overflow-hidden border-4 border-gradient-to-r from-blue-400 to-cyan-400 p-1 bg-gradient-to-r from-blue-400 to-cyan-400">
               <div className="w-full h-full rounded-full overflow-hidden bg-slate-800 flex items-center justify-center">
                 <img 
-                  src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=400" 
-                  alt="Floriane MESLIN" 
+                  src="noir.jpg"
+                  alt="" 
                   className="w-full h-full object-cover"
                 />
               </div>
             </div>
-            <div className="absolute -inset-2 bg-gradient-to-r from-blue-400 to-cyan-400 rounded-full opacity-20 animate-pulse"></div>
+          
           </div>
 
           {/* Nom et Titre */}
@@ -37,7 +37,7 @@ const Hero = () => {
           
           <div className="text-lg md:text-xl text-slate-300 mb-8 space-y-2">
             <p className="font-medium">BUT Informatique - Première Année</p>
-            <p className="text-slate-400">IUT de [Nom de votre IUT]</p>
+            <p className="text-slate-400">IUT de Villetaneuse</p>
           </div>
 
           {/* Présentation */}

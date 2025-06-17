@@ -6,6 +6,8 @@ const Projects = () => {
   const [activeProject, setActiveProject] = useState(0);
   const sectionRef = useRef<HTMLElement>(null);
 
+
+
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
@@ -25,79 +27,79 @@ const Projects = () => {
 
   const projects = [
     {
-      title: "SAÉ 1.01 - Implémentation d'un besoin client",
-      description: "Analyse et développement d'une solution informatique répondant aux besoins spécifiques d'un client.",
-      tasks: "Recueil des besoins, analyse fonctionnelle, conception et développement d'une application de gestion.",
+      title: "SAÉ 1 - Implémentation",
+      description: "Développement en Python d’un programme permettant de modéliser un réseau social et d’analyser les relations entre ses membres. Cette SAE m’a permis de manipuler des structures de données, de lire des fichiers, et de concevoir un programme structuré avec des fonctions claires et testées.",
+      tasks: "Ce projet vise à analyser un réseau social modélisé par des structures de données Python. Il s’agit d’un travail réalisé en binôme dans le cadre du BUT Informatique à l’IUT de Villetaneuse.",
       timeline: [
-        "Semaine 1-2: Analyse des besoins et spécifications",
-        "Semaine 3-4: Conception de l'architecture",
-        "Semaine 5-8: Développement et tests",
-        "Semaine 9: Présentation client"
+        "Modéliser les relations entre membres d’un réseau social",
+        "Élaborer un dictionnaire d’amitiés à partir d’un tableau",
+        "Lire et filtrer des données à partir de fichiers CSV",
+        "Déterminer les personnes les plus populaires"
       ],
-      competences: ["Réaliser un développement d'application", "Optimiser des applications informatiques"],
-      niveau: "Acquise partiellement",
-      preuves: "#",
-      technologies: ["HTML", "CSS", "JavaScript", "Python"]
+      competences: ["Python (structures conditionnelles, boucles, listes, dictionnaires, fichiers)", "Logique algorithmique, tests unitaires."],
+      niveau: "Acquis partiellement",
+      technologies: ["Python"]
     },
     {
-      title: "SAÉ 1.02 - Comparaison d'approches algorithmiques",
-      description: "Étude comparative de différents algorithmes de tri et optimisation des performances.",
-      tasks: "Implémentation et analyse de complexité de différents algorithmes de tri.",
+      title: "SAÉ 2 - Installation d'un poste",
+      description: "Installation complète d’un système Linux sur un ordinateur, avec mise en place d’un environnement de développement comprenant Apache, PHP, PostgreSQL, et des outils de programmation. Ce projet m’a permis de mieux comprendre l’administration système et la configuration d’un poste de travail de développeur.",
+      tasks: "Dans le cadre de cette SAÉ, nous avons reçu un ordinateur à réinitialiser totalement. Le but était d’installer un système Linux léger (Xubuntu), configurer le réseau, et mettre en place un environnement complet de développement web et logiciel.",
       timeline: [
-        "Semaine 1: Recherche théorique",
-        "Semaine 2-3: Implémentation des algorithmes",
-        "Semaine 4: Tests de performance",
-        "Semaine 5: Analyse et rapport"
+        "Création d’un support d’installation bootable (clé/disque USB)",
+        "Installation de Xubuntu en mode UEFI",
+        "Configuration réseau (Wi-Fi / Eduroam)",
+        "Installation d’un serveur web (Apache), PHP, et PostgreSQL",
+        "Configuration des pages perso utilisateurs et tests PHP",
+        "Installation de Java, Python, VS Code et création de scripts"
       ],
-      competences: ["Optimiser des applications informatiques"],
+      competences: ["gérer des systèmes Linux","manipuler le terminal","installer et configurer des services essentiels pour le développement"],
+      niveau: "Acquis partiellement.",
+      technologies: ["Linux", "PostgreSQL", "PHP"]
+    },
+    {
+      title: "SAÉ 3 - Création d'une base de données",
+      description: "Création d’une base de données à partir de données CSV sur les catastrophes climatiques. Ce projet m’a permis de modéliser un schéma relationnel, d’utiliser un AGL (MySQL Workbench), d’écrire des scripts SQL, et d'importer des données dans PostgreSQL.",
+      tasks: "Cette SAÉ avait pour objectif de concevoir une base de données complète sur les catastrophes climatiques mondiales, à partir de données CSV. Le projet a été mené avec les outils PostgreSQL pour l’exécution des requêtes, et MySQL Workbench pour la modélisation graphique.",
+      timeline: [
+        "Modélisation conceptuelle (entités-associations)",
+        "Création des tables SQL manuellement et via AGL",
+        "Comparaison des scripts manuels et générés automatiquement",
+        "Peuplement de la base à partir d’un fichier CSV",
+        "Utilisation de clés primaires/étrangères et types appropriés"
+      ],
+      competences: ["modéliser une base de données","compréhension des différences entre outils comme PostgreSQL et MySQL Workbench"],
       niveau: "En cours d'acquisition",
-      preuves: "#",
-      technologies: ["Python", "Matplotlib", "Pandas"]
+      technologies: ["SQL", "MySQL Workbench", "PostgreSQL"]
     },
     {
-      title: "SAÉ 1.03 - Installation de poste pour le développement",
-      description: "Configuration d'un environnement de développement complet et sécurisé.",
-      tasks: "Installation et configuration d'outils de développement, systèmes de contrôle de version.",
+      title: "SAÉ 4 - Installation de services réseau",
+      description: "Cette SAÉ consistait à transformer un ordinateur personnel sous Linux en véritable serveur de développement. Cela comprenait la mise en place d’un environnement LAMP (Linux, Apache, MariaDB, PHP), ainsi que d’autres services tels que FTP, SSH et la configuration de pages web personnelles accessibles en local.",
+      tasks: "Installation et configuration de services réseau sur un poste Linux, incluant un serveur web Apache, une base de données MariaDB, PHP, un serveur FTP, un accès SSH sécurisé, et la configuration d’un environnement de développement complet pour simuler un serveur personnel.",
       timeline: [
-        "Jour 1-2: Installation OS et outils de base",
-        "Jour 3-4: Configuration IDE et extensions",
-        "Jour 5: Configuration Git et déploiement",
-        "Jour 6: Tests et documentation"
+        "Serveur Apache2 (web)",
+        "Base de données MariaDB (équivalent libre de MySQL)",
+        "Support PHP avec PDO pour accéder à la base",
+        "Création d’un utilisateur système + base de données dédiée",
+        "FTP : configuration pour utilisateur local et anonyme",
+        "SSH avec port personnalisé et restrictions de sécurité",
+        "test de connexion via navigateur et en ligne de commande"
       ],
-      competences: ["Administrer des systèmes informatiques communicants complexes"],
-      niveau: "Acquise totalement",
-      preuves: "#",
-      technologies: ["Linux", "Git", "Docker", "VS Code"]
+      competences: ["configurer système Linux","gestion de services réseau","meilleure compréhension de la structure client/serveur sur le web."],
+      niveau: "Acquis partiellement",
+      technologies: ["PHP", "MariaDB", "Linux"]
     },
     {
-      title: "SAÉ 1.04 - Création d'une base de données",
-      description: "Conception et implémentation d'une base de données relationnelle pour une application métier.",
-      tasks: "Modélisation conceptuelle, création des tables, requêtes SQL complexes.",
+      title: "SAÉ 5 - Exploitation d'une base de données",
+      description: "Dans cette SAÉ, nous avons exploité une base de données contenant des données issues d’un réseau social, afin de répondre à plusieurs problématiques liées à l’activité des utilisateurs. L’objectif était de croiser les données, détecter des corrélations et en tirer des conclusions utiles pour la stratégie de la plateforme.",
+      tasks: "Analyse statistique de données d’un réseau social à partir d’une base SQL. Réalisation de requêtes complexes, traitement de résultats, et production de graphiques (corrélations, comparaisons régionales, comportements utilisateurs) pour répondre à des problématiques concrètes d'engagement et de ciblage.",
       timeline: [
-        "Semaine 1: Analyse des besoins données",
-        "Semaine 2: Modélisation MCD/MLD",
-        "Semaine 3-4: Création tables et contraintes",
-        "Semaine 5: Requêtes et optimisation"
+        "Comparaison des commentaires selon le genre et la région",
+        "Corrélation entre nombre de commentaires et niveau d’engagement",
+        "Impact des clics publicitaires sur les téléchargements"
       ],
-      competences: ["Gérer des données de l'information"],
-      niveau: "Développée",
-      preuves: "#",
-      technologies: ["MySQL", "SQL", "PHPMyAdmin"]
-    },
-    {
-      title: "SAÉ 1.05 - Recueil de besoins",
-      description: "Méthodologie de recueil et analyse des besoins utilisateurs pour un projet informatique.",
-      tasks: "Entretiens utilisateurs, analyse fonctionnelle, rédaction de spécifications.",
-      timeline: [
-        "Semaine 1-2: Préparation entretiens",
-        "Semaine 3-4: Conduite d'entretiens",
-        "Semaine 5-6: Analyse et synthèse",
-        "Semaine 7: Présentation résultats"
-      ],
-      competences: ["Conduire un projet"],
+      competences: ["Manipuler des données réelles","Appliquer des requêtes SQL complexes","interpréter des résultats sous forme graphique"],
       niveau: "En cours d'acquisition",
-      preuves: "#",
-      technologies: ["UML", "Figma", "Trello"]
+      technologies: ["SQL", "PostreSQL", "MySQL Workbench"]
     }
   ];
 
@@ -161,7 +163,7 @@ const Projects = () => {
               <div className="mb-6">
                 <div className="flex items-center gap-2 mb-3">
                   <Calendar className="w-4 h-4 text-blue-400" />
-                  <span className="text-sm font-medium text-white">Chronologie</span>
+                  <span className="text-sm font-medium text-white">Objectif</span>
                 </div>
                 <div className="space-y-2">
                   {projects[activeProject].timeline.map((step, index) => (
@@ -192,24 +194,6 @@ const Projects = () => {
                     {projects[activeProject].niveau}
                   </span>
                 </div>
-              </div>
-
-              {/* Liens */}
-              <div className="flex gap-3">
-                <a
-                  href={projects[activeProject].preuves}
-                  className="flex items-center gap-2 px-4 py-2 bg-blue-600/20 text-blue-300 rounded-lg hover:bg-blue-600/30 transition-colors"
-                >
-                  <ExternalLink size={16} />
-                  Voir les preuves
-                </a>
-                <a
-                  href="#"
-                  className="flex items-center gap-2 px-4 py-2 bg-slate-700/50 text-slate-300 rounded-lg hover:bg-slate-700 transition-colors"
-                >
-                  <Github size={16} />
-                  Code source
-                </a>
               </div>
             </div>
           </div>

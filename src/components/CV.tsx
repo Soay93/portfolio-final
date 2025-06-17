@@ -58,8 +58,8 @@ const CV = () => {
                 <div className="flex items-center gap-6">
                   <div className="w-24 h-24 rounded-full overflow-hidden border-4 border-white/20">
                     <img 
-                      src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=400" 
-                      alt="Floriane MESLIN" 
+                      src="noir.jpg" 
+                      alt="" 
                       className="w-full h-full object-cover"
                     />
                   </div>
@@ -69,15 +69,15 @@ const CV = () => {
                     <div className="grid md:grid-cols-2 gap-2 text-sm">
                       <div className="flex items-center gap-2">
                         <Mail size={16} />
-                        floriane.meslin@email.com
+                        meslinfloriane@gmail.com
                       </div>
                       <div className="flex items-center gap-2">
                         <Phone size={16} />
-                        06 XX XX XX XX
+                        06 48 10 23 18
                       </div>
                       <div className="flex items-center gap-2">
                         <MapPin size={16} />
-                        [Votre Ville]
+                        Paris
                       </div>
                       <div className="flex items-center gap-2">
                         <Linkedin size={16} />
@@ -96,7 +96,7 @@ const CV = () => {
                     Profil
                   </h2>
                   <p className="text-slate-700 leading-relaxed">
-                    Étudiante en BUT Informatique passionnée par le développement web et la programmation. 
+                    Étudiante en BUT Informatique, passionnée par le développement web et la programmation. 
                     Recherche activement un stage pour mettre en pratique mes compétences techniques et 
                     contribuer à des projets innovants.
                   </p>
@@ -110,16 +110,16 @@ const CV = () => {
                   <div className="space-y-3">
                     <div>
                       <h3 className="font-semibold text-lg">BUT Informatique - 1ère année</h3>
-                      <p className="text-slate-600">IUT de [Nom] • 2024-2027</p>
+                      <p className="text-slate-600">IUT de Villetaneuse • 2024-2025</p>
                       <p className="text-sm text-slate-600">
                         Développement d'applications, bases de données, algorithmique, gestion de projet
                       </p>
                     </div>
                     <div>
-                      <h3 className="font-semibold text-lg">Baccalauréat [Filière]</h3>
-                      <p className="text-slate-600">Lycée [Nom] • 2024</p>
+                      <h3 className="font-semibold text-lg">Baccalauréat Technologique STI2D</h3>
+                      <p className="text-slate-600">Lycée PO Guy Moquet - Etienne Lennoir • 2023- 2024</p>
                       <p className="text-sm text-slate-600">
-                        Spécialités: [Spécialités] • Mention [Mention]
+                        Spécialités: SIN • Mention assez bien
                       </p>
                     </div>
                   </div>
@@ -134,7 +134,7 @@ const CV = () => {
                     <div>
                       <h4 className="font-semibold mb-2">Langages</h4>
                       <div className="flex flex-wrap gap-2">
-                        {['Python', 'JavaScript', 'HTML/CSS', 'SQL', 'Java'].map((skill) => (
+                        {['Python', 'JavaScript', 'HTML/CSS', 'SQL', 'Java', 'C++', 'Assembler'].map((skill) => (
                           <span key={skill} className="px-2 py-1 bg-blue-100 text-blue-800 rounded text-sm">
                             {skill}
                           </span>
@@ -144,7 +144,7 @@ const CV = () => {
                     <div>
                       <h4 className="font-semibold mb-2">Outils</h4>
                       <div className="flex flex-wrap gap-2">
-                        {['Git', 'Linux', 'MySQL', 'VS Code', 'Docker'].map((tool) => (
+                        {['Git', 'Linux', 'MySQL', 'VS Code'].map((tool) => (
                           <span key={tool} className="px-2 py-1 bg-green-100 text-green-800 rounded text-sm">
                             {tool}
                           </span>

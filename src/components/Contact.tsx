@@ -26,23 +26,23 @@ const Contact = () => {
     {
       icon: <Mail className="w-6 h-6" />,
       label: "Email",
-      value: "floriane.meslin@email.com",
-      link: "mailto:floriane.meslin@email.com",
+      value: "meslinfloriane@gmail.com",
+      link: "mailto:meslinfloriane@gmail.com",
       description: "N'hésitez pas à me contacter"
     },
     {
       icon: <Phone className="w-6 h-6" />,
       label: "Téléphone",
-      value: "06 XX XX XX XX",
-      link: "tel:+33XXXXXXXXX",
-      description: "Disponible aux heures ouvrées"
+      value: "06 48 10 23 18",
+      link: "tel:+330648102318",
+      description: "Disponible tout le temps"
     },
     {
       icon: <MapPin className="w-6 h-6" />,
       label: "Localisation",
-      value: "[Votre Ville, France]",
+      value: "[Paris, France]",
       link: "#",
-      description: "Mobile pour stages/emplois"
+      description: "Mobile pour stages/alternance"
     },
     {
       icon: <Linkedin className="w-6 h-6" />,
@@ -103,8 +103,7 @@ const Contact = () => {
                   Recherche active de stage
                 </h3>
                 <p className="text-slate-300 mb-6 max-w-2xl mx-auto">
-                  Je recherche un stage en développement informatique pour la période de 
-                  [dates]. Motivée et désireuse d'apprendre, je suis prête à contribuer 
+                  Je recherche un stage en développement informatique pour l'année universitaire 2025-2026. Motivée et désireuse d'apprendre, je suis prête à contribuer 
                   à vos projets avec enthousiasme.
                 </p>
                 <a

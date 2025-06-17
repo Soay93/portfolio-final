@@ -27,7 +27,7 @@ const Skills = () => {
       icon: <Code className="w-8 h-8" />,
       title: "Réaliser un développement d'application",
       level: "En cours d'acquisition",
-      percentage: 65,
+      percentage: 60,
       description: "Développement d'applications web et logicielles",
       details: ["HTML/CSS/JavaScript", "Python", "Frameworks web", "Tests unitaires"]
     },
@@ -42,7 +42,7 @@ const Skills = () => {
     {
       icon: <Settings className="w-8 h-8" />,
       title: "Administrer des systèmes informatiques communicants",
-      level: "Acquise",
+      level: "Partiellement acquise",
       percentage: 80,
       description: "Administration système et réseaux",
       details: ["Linux/Windows", "Configuration serveurs", "Sécurité", "Virtualisation"]
@@ -50,24 +50,24 @@ const Skills = () => {
     {
       icon: <Database className="w-8 h-8" />,
       title: "Gérer des données de l'information",
-      level: "Développée",
-      percentage: 75,
+      level: "En cours d'acquisition",
+      percentage: 45,
       description: "Gestion et analyse de bases de données",
       details: ["SQL avancé", "Modélisation BDD", "NoSQL", "Data Mining"]
     },
     {
       icon: <Users className="w-8 h-8" />,
       title: "Conduire un projet",
-      level: "En cours d'acquisition",
-      percentage: 60,
+      level: "Acquis",
+      percentage: 85,
       description: "Gestion de projet informatique",
       details: ["Méthodologies agiles", "Planification", "Communication", "Documentation"]
     },
     {
       icon: <Globe className="w-8 h-8" />,
       title: "Travailler dans une équipe informatique",
-      level: "Acquise partiellement",
-      percentage: 70,
+      level: "Partiellement acquise",
+      percentage: 80,
       description: "Collaboration et travail d'équipe",
       details: ["Git/GitHub", "Code review", "Communication", "Résolution conflits"]
     }
