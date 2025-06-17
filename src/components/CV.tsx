@@ -119,7 +119,7 @@ const CV = () => {
                       <h3 className="font-semibold text-lg">Baccalauréat Technologique STI2D</h3>
                       <p className="text-slate-600">Lycée PO Guy Moquet - Etienne Lennoir • 2023- 2024</p>
                       <p className="text-sm text-slate-600">
-                        Spécialités: SIN • Mention assez bien
+                        Baccalauréat Technologique STI2D • Spécialités: SIN • Mention assez bien
                       </p>
                     </div>
                   </div>
