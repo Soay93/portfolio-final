@@ -53,7 +53,7 @@ const Skills = () => {
       level: "En cours d'acquisition",
       percentage: 45,
       description: "Gestion et analyse de bases de données",
-      details: ["SQL avancé", "Modélisation BDD", "NoSQL", "Data Mining"]
+      details: ["SQL avancé", "Modélisation BDD", "MySql"]
     },
     {
       icon: <Users className="w-8 h-8" />,
