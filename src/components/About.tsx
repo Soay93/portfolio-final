@@ -31,7 +31,7 @@ const About = () => {
     {
       icon: <Briefcase className="w-8 h-8" />,
       title: "Projets Personnels",
-      content: "Développement d'applications web pour ma famille et mes proches, création de sites vitrines, automatisation de tâches quotidiennes avec Python."
+      content: "Développement d'applications web pour ma famille et mes proches, création de sites vitrines, minis projets avec Python."
     },
     {
       icon: <User className="w-8 h-8" />,
