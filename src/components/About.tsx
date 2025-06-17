@@ -26,7 +26,7 @@ const About = () => {
     {
       icon: <GraduationCap className="w-8 h-8" />,
       title: "Parcours Scolaire",
-      content: "Baccalauréat [Filière] avec spécialités [Spécialités] obtenu avec mention [Mention]. Formation solide en mathématiques et sciences du numérique."
+      content: "Baccalauréat technologique STI2D (Science et Technologie de l'Industrie et du Développement Durable) avec spécialité SIN (Système d'Information et Numérique) obtenu avec mention assez bien. Formation solide en mathématiques et sciences du numérique."
     },
     {
       icon: <Briefcase className="w-8 h-8" />,
